@@ -37,47 +37,39 @@
 
     <main>
         <article id="Contact">
-            <section>
-                <h2>Our Contact Form</h2>
-                <form action="https://httbin.org/get">
-                    <fieldset>
-                        <legend>Send us a message</legend>
-                        <p>
-                            <label for="completeName">Name</label>
-                            <input type="text" name="completeName" id="completeName" placeholder="Marcus Jhonson"
-                                autocomplete="on" required>
-                        </p>
-                        <p>
-                            <label for="email">Email</label>
-                            <input type="text" name="email" id="email" placeholder="MarcusJ28@gmail.com"
-                                autocomplete="on" required>
-                        </p>
-                        <p>
-                            <label for="yourmessage">Your Message</label>
-                            <br>
-                            <textarea name="yourmessage" id="yourmessage" cols="30"
-                                rows="10">"Type your message here"</textarea>
-                        </p>
+            <h2>Our Contact Form</h2>
+            <form action="https://httbin.org/get">
+                <fieldset>
+                    <legend>Send us a message</legend>
+                    <p>
+                        <label for="completeName">Name</label>
+                        <input type="text" name="completeName" id="completeName" placeholder="Marcus Jhonson"
+                            autocomplete="on" required>
+                    </p>
+                    <p>
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="email" placeholder="MarcusJ28@gmail.com" autocomplete="on"
+                            required>
+                    </p>
+                    <p>
+                        <label for="yourmessage">Your Message</label>
                         <br>
-                        <button type="submit">Submit</button>
-                        <button type="reset">Reset</button>
-
-                    </fieldset>
-                </form>
-            </section>
+                        <textarea name="yourmessage" id="yourmessage" cols="30"
+                            rows="10">"Type your message here"</textarea>
+                    </p>
+                    <br>
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </fieldset>
+            </form>
         </article>
         <article id="Location">
-            <section>
-                <h2>Our Location</h2>
-                <dl>
-                    <dt>555 Taco Temptation Lane, Suite T</dt>
-                    <dd>Kansas City, MO 55555-5555</dd>
-                </dl>
-                <p>
-                    <label for="phone">Phone:</label>
-                    <a href="phone">5555-55555</a>
-                </p>
-            </section>
+            <h2>Our Location</h2>
+            <address>
+                555 Taco Temptation Lane, Suite T <br>
+                Kansas City, MO 55555-5555 <br> <br>
+                Phone: <a href="tel:+555555555">555-555-5555</a>
+            </address>
         </article>
     </main>
 
