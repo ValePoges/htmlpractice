@@ -1,0 +1,27 @@
+html{ 
+    font-size: 22px;
+}
+
+body{
+    background-color: midnightblue;
+    color:gainsboro;
+}
+
+a{
+    color: aliceblue;
+}
+
+a:visited{
+    color:azure ;
+}
+
+a:hover, a:active {
+color: cornsilk;
+}
+
+table, tr, th, td,caption {
+    border: 1px solid #eee;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    border-collapse: collapse;
+    padding: 0.5rem;
+}
